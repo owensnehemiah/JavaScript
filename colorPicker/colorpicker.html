@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Game</title>
+    <link rel = "stylesheet" type = "text/css" href="colorpicker.css">
+</head>
+<body>
+    
+    <header class = "grid-header">
+        <div class = "wrapper">
+            <h1>THE GREAT</h1>
+            <h1><span id = "color-display">RGB</span></h1>
+            <h1>GUESSING GAME</h1>
+        </div>
+    </header>
+    
+    <div id = "options">
+        <ul>
+            <li><button id = "reset" type = "button" alt = "reset button">New Colors</button></li>
+            <li><span id = "message"></span></li>
+            <li><button class = "mode" id = "easy">Easy</button></li>
+            <li><button class = "mode" id = "hard">Hard</button></li>
+        </ul>
+    </div>
+    
+<!--
+    <div id = "easy-grid">
+        <div class = "square"></div>
+        <div class = "square"></div>
+        <div class = "square"></div>
+    </div>
+--> 
+    
+    <div id = "hard-grid"> 
+        <div class = "square"></div>
+        <div class = "square"></div>
+        <div class = "square"></div>
+        <div class = "square"></div>
+        <div class = "square"></div>
+        <div class = "square"></div>
+    </div>
+    
+    <script src = "colorpicker.js" type="text/javascript"></script>
+</body>
+</html>
